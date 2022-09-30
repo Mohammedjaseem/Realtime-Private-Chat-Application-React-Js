@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.formContainer{
+    background-color: #a7bcff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+
+    // we can write the child code in this section its self
+    .formWrapper{
+        background-color: white;
+        padding: 20px 60px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+
+        .logo{
+            color: #5d5b8d;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        
+        .title{
+            color: #5d5b8d;
+            font-size: 12px;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            
+        }
+
+        .form-inputs{
+            display: flex;
+            border: none;
+            border-bottom: #a7bcff  2px solid;
+            border-radius: 5px;
+            padding: 15px;
+            width: 250px;
+            outline: none;
+            font-size: 16px;
+           &::placeholder{
+               color: rgb(175, 175, 175);
+           }
+            
+        }
+
+        button{
+            background-color: #a7bcff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                background-color: #5d5b8d;
+            }
+        }
+
+        label{
+            display: flex;
+            align-items: center;
+            color: #8da4f1;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        p{
+            color: #5d5b8d;
+            font-size: 13px;
+            margin-top: 10px;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+    }
+}
+
+
+// Style for home start here
+
+
